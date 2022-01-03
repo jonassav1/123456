@@ -18,7 +18,6 @@ int main() {
     int tbt=tekstas.length();
     
 	while(i !=-1 ){
-		cout<<"simbolis '"<<tekstas[i]<<"' simbolis  pries '"<<tekstas[i-1]<<"'simbolio pozicija(i) "<<i<<" teksto ilgis be tarpu "<<tbt<<endl;
 		if(tekstas[i]==' '){
 			
 			if(tekstas[i-1]==' '){
